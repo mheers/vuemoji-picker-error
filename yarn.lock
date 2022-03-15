@@ -1439,6 +1439,11 @@
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
 
+"@vue/composition-api@^1.4.9":
+  version "1.4.9"
+  resolved "https://registry.yarnpkg.com/@vue/composition-api/-/composition-api-1.4.9.tgz#6fa65284f545887b52d421f23b4fa1c41bc0ad4b"
+  integrity sha512-l6YOeg5LEXmfPqyxAnBaCv1FMRw0OGKJ4m6nOWRm6ngt5TuHcj5ZoBRN+LXh3J0u6Ur3C4VA+RiKT+M0eItr/g==
+
 "@vue/preload-webpack-plugin@^1.1.0":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@vue/preload-webpack-plugin/-/preload-webpack-plugin-1.1.2.tgz#ceb924b4ecb3b9c43871c7a429a02f8423e621ab"
@@ -3351,6 +3356,11 @@ elliptic@^6.5.3:
     inherits "^2.0.4"
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
+
+emoji-picker-element@^1.10.1:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/emoji-picker-element/-/emoji-picker-element-1.11.0.tgz#d9259a62352d5f3bccae47adcd7d47a01d2e087d"
+  integrity sha512-aM4Z0qu2OM8BmB0/AiNzkNbCMagr+F9dNsV4APER8lTCSxYhqe7wPhPG/kaI4XywU5dhM/s2T1ZOPGQ33ZQe2w==
 
 emoji-regex@^7.0.1:
   version "7.0.3"
@@ -8179,6 +8189,11 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
+vue-demi@^0.12.1:
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.12.2.tgz#7283bd94b207709e834ef77d3086508ee4fa921e"
+  integrity sha512-8RRLmYfxfiRoohEbZ44CSxpNAM9vcVBMinN7Hucdxxy9Pjr2PpuimPMLIW143+GzkrHsbY95fsFFzQOouFuetA==
+
 vue-eslint-parser@^7.0.0:
   version "7.11.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-7.11.0.tgz#214b5dea961007fcffb2ee65b8912307628d0daf"
@@ -8242,6 +8257,14 @@ vue@^2.6.11:
   version "2.6.14"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
   integrity sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==
+
+vuemoji-picker@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/vuemoji-picker/-/vuemoji-picker-0.1.1.tgz#9f74d57d513df2599693c322d0a38c259185f3a0"
+  integrity sha512-AtZuGDVlJBemnmj247G2WssPGs2xBLgDrN2LeaieOeGGPDrcz0NsiIPipdRRgYE29sScmuKZlRfMrC25UT9gTw==
+  dependencies:
+    emoji-picker-element "^1.10.1"
+    vue-demi "^0.12.1"
 
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"
